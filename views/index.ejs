@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: darksalmon;
+            color: #555;
+            font-family: sans-serif;
+        }
+        .form{
+            width: 60%;
+            height: 600px;
+            background-color: cornsilk;
+            margin: auto;
+            margin-top: 80px;
+        }
+        input{
+            display: block;
+            margin: auto;
+            height: 40px;
+            width: 60%;
+            margin-top: 50px;
+            font-size:1.3rem;
+        }
+        .submit{
+            border:none;
+            outline:none;
+            display: block;
+            margin:auto;
+            width: 80px;
+            height:40px;
+            background-color: darkgoldenrod;
+            color:#fff;
+            margin-top: 50px;
+            padding: 10px;
+        }
+        .submit:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <div class="form">
+                <a href="/records">Records</a>
+                <h1 style="text-align: center;padding-top: 10px;">Create</h1>
+                <input type="text" placeholder="name" name="name">
+                <input type="text" placeholder="age" name="age">
+                <input type="text" placeholder="arrival" name="arr">
+                <input type="text" placeholder="departure" name="dep">
+                <button  class="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
